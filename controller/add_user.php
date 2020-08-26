@@ -1,7 +1,7 @@
 <?php include '../model/user_model.php'; ?>
 
 <?php
-print_r($_POST);
+//print_r($_POST);
 $insert_data=array(
     'id'=>$_POST['id'],
     'fn'=>$_POST['fn'],
